@@ -1,19 +1,24 @@
 layout: true
-class: compact
+class: img-right
 background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
-name: slide2
+name: introduction-to-terraform
 
-## Slide 2
+## Introduction to Terraform
 
-Here's an example of incremental text (hit left to progress):
+![scale:50%](./assets/logos/logo_terraform.png)
 
-- List Item 1
+
+- Terraform Overview
+
 --
 
-- List Item 2
+- Purpose: Infrastructure as Code (IaC)
+
 --
 
-- List Item 3
+- Benefits: Declarative Configuration, Resource Graph, Plan & Apply
 
 ???
+Terraform is a powerful Infrastructure as Code (IaC) tool that transforms the way we manage infrastructure. With a focus on declarative configuration, Terraform allows users to define and provision infrastructure using a simple, human-readable language. This approach brings several benefits, including maintaining a resource graph to understand dependencies, and the ability to plan and apply changes systematically. As we progress, we'll see how Terraform complements Packer in orchestrating the deployment of machine images, offering a robust and scalable solution for infrastructure management.
+---

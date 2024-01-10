@@ -352,3 +352,6 @@ html {
 .remark-slide-content.no-footer .footer {
   display: none;
 }
+ul {
+  background-color: transparent !important; /* Override any background color */
+}
